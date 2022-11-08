@@ -1,0 +1,35 @@
+/* pink q22 background color #CB0B46 */
+
+@font-face{
+    font-family: qatarfont;
+    src: url('bold.ttf');
+}
+
+
+.grouptitle{
+    text-align: center;
+    width:auto;
+    background-color: #CB0B46;
+    color: #FFE3CB;
+    width: 100%;
+}
+
+.groupbox{
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFE3CB;
+    color: #CB0B46;
+    max-width: 150px;
+}
+
+body{
+    font-family: qatarfont;
+    background-color: #E7005E;
+}
+
+h2{
+    color: white;
+}
